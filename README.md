@@ -20,3 +20,6 @@
 
 10. Input Validation: Perform proper input validation to ensure that the user-provided parameters are valid and within the expected range. This helps to prevent errors or unexpected behavior caused by invalid input.
 
+
+This updated script includes multi-threading for parallel file processing, logging functionality, exception handling, and exports the results to an Excel sheet. It logs important events and errors to the "script.log" file. The Excel file path can be provided as a command-line argument using the -x or --excel option. By default, the results will be saved to a file named "results.xlsx" in the script's directory.
+
