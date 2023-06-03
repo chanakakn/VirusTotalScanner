@@ -1,5 +1,8 @@
 # VirusTotalScanner
 
+RUN: python script.py -x /path/to/myfile.xlsx
+
+
 1. Error Handling: Add appropriate error handling to handle potential exceptions that may occur during the execution of the script. For example, handle network errors when communicating with the VirusTotal API, file access errors, or invalid API key errors.
 
 2. Logging: Introduce logging functionality to log important events, errors, and results. This can help in debugging and tracking the progress of the script.
